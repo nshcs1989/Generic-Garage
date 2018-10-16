@@ -7,9 +7,9 @@ public class MainGarage
         Garage<Vehicle> g = new Garage<>(MAX_NUM_OF_CARS);
         PrivateVehicle c1=new PrivateVehicle("9304123","KIA", 2015,"Private Vehicle","Netanel");
         PrivateVehicle c2=new PrivateVehicle("9304133","TOYOTA", 2005,"Private Vehicle","Michal");
-        LeesingVehicle c3=new LeesingVehicle("9304153","Citroen", 2018,"Leesing Vehicle","TEVA","Reut");
+        LeesingVehicle c3=new LeasingVehicle("9304153","Citroen", 2018,"Leesing Vehicle","TEVA","Reut");
         PrivateVehicle c4=new PrivateVehicle("9304163","Renault", 2016,"Private Vehicle","Adam");
-        LeesingVehicle c5=new LeesingVehicle("9304113","Hyundai", 2018,"Leesing Vehicle","IBM","Assaf");
+        LeesingVehicle c5=new LeasingVehicle("9304113","Hyundai", 2018,"Leesing Vehicle","IBM","Assaf");
         PrivateVehicle c6=new PrivateVehicle("9504123","Citroen", 2013,"Private Vehicle","Noga");
         try
         {
