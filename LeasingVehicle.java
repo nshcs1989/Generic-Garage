@@ -1,4 +1,4 @@
-public class LeesingVehicle extends Vehicle
+public class LeasingVehicle extends Vehicle
 {
 
 
@@ -13,7 +13,7 @@ public class LeesingVehicle extends Vehicle
     private String _company;
     private String _workerName;
 
-    public LeesingVehicle(String carNumber, String carType, int carDate, String carRemark,String company ,String workerName)
+    public LeasingVehicle(String carNumber, String carType, int carDate, String carRemark, String company , String workerName)
     {
         super(carNumber,carType,carDate,carRemark);
         setCompany(company);
